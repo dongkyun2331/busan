@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,11 +17,16 @@ ul {
     list-style: none;
 }
 
+.body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .title {
     display: flex;
     margin: 0 auto;
-    width: 1700px;
+    width: 1600px;
     /* background-color: aquamarine; */
+    height: 70px;
 }
 
 .head {
@@ -52,7 +59,7 @@ ul {
 }
 
 .menu ul li a {
-    margin: 70px;
+    margin: 35px;
     color: #666666;
 }
 
@@ -78,9 +85,10 @@ ul {
 }
 
 .container {
-    width: 1700px;
+    width: 1600px;
     height: 786px;
-    background-color: #5d7cc7;
+    background: rgb(91,123,198);
+    background: linear-gradient(180deg, rgba(91,123,198,1) 0%, rgba(184,172,218,1) 84%, rgba(69,132,227,1) 100%);
     margin: 0 auto;
 }
 
@@ -92,22 +100,56 @@ ul {
 }
 
 .container h2 {
+    /* 2022.12.17.토. 광안리해수욕장 일원 */
     font-size: 36px;
     color: #ffffff;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 60px;
 }
 
-.container h3 {
-    color: #ffffff;
-    text-align: center;
-    padding-top: 100px;
-    font-size: 30px;
+.container .woro {
+    display: flex;
 }
 
 .container .line_02 {
-    padding: 1px;
-    width: 1100px;
-    border-bottom: 1px solid #ffffff;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 410px;
+    height: 1px;
+    background-color: #f3f7fb;
+}
+
+.container .woro .wbox {
+    width: 183px;
+    height: 52px;
+    background-color: #f6f7f9;
+    border-radius: 52px;
+}
+
+.container .woro .wbox h3 {
+    color: #3551b4;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .line_03 {
+    margin-top: 20px;
+    width: 410px;
+    height: 1px;
+    background-color: #f3f7fb;
+}
+
+.container h4 {
+    padding-top: 60px;
+    color: #fdffff;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.container p {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
 }
