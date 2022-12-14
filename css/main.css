@@ -25,7 +25,6 @@ ul {
     display: flex;
     margin: 0 auto;
     width: 1600px;
-    /* background-color: aquamarine; */
     height: 70px;
 }
 
@@ -87,8 +86,6 @@ ul {
 .container {
     width: 1600px;
     height: 836px;
-    /* background: rgb(91,123,198);
-    background: linear-gradient(180deg, rgba(91,123,198,1) 0%, rgba(184,172,218,1) 84%, rgba(69,132,227,1) 100%); */
     background-image: url("../images/img.png");
     margin: 0 auto;
     background-repeat:no-repeat ;
@@ -167,4 +164,39 @@ ul {
     background-color: #f6f7f9;
     margin: 0 auto;
     box-shadow: 5px 5px 5px hsl(0deg 0% 0% / 0.75);
+    position: relative;
+    padding-bottom: 71px;
+}
+
+.container .wbox_01 .p_1 {
+    color: #000;
+    font-size: 26px;
+    position: absolute;
+    top: 15px;
+    left: 44px;
+}
+
+.container .wbox_01 .p_2 {
+    color: #000;
+    font-size: 26px;
+    position: absolute;
+    top: 15px;
+    right: 44px;
+}
+
+.container .wbox_01 img {
+    width: 8px;
+    height: 16px;
+    padding: 1px;
+}
+
+.conduct ul {
+    display: flex;
+}
+
+.conduct ul li {
+    width: 314px;
+    height: 372px;
+    background-color: red;
+    margin: 10px;
 }
