@@ -185,13 +185,14 @@ ul {
 }
 
 .container .wbox_01 img {
-  width: 8px;
+  width: 10px;
   height: 16px;
   padding: 1px;
 }
 
 .conduct ul {
   display: flex;
+  margin-top: 68px;
 }
 
 .conduct ul li {
@@ -199,4 +200,9 @@ ul {
   height: 372px;
   margin: 10px;
   border: 1px solid #e2e6e6;
+}
+
+.conduct ul li img {
+  width: 314px;
+  height: ;
 }
