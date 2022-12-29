@@ -203,6 +203,60 @@ ul {
 }
 
 .conduct ul li img {
-  width: 314px;
-  height: ;
+  width: 312px;
+}
+
+.conduct .trip {
+  position: relative;
+}
+
+.conduct .trip .layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.conduct .trip .circle {
+  width: 79px;
+  height: 79px;
+  border-radius: 79px;
+  background-color: #e14500;
+  position: absolute;
+  bottom: 74px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.conduct .trip p {
+  /* 이달의 부산여행지 */
+  font-size: 26px;
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  bottom: 26px;
+  right: 36px;
+}
+
+.conduct .conduct_01 {
+  position: relative;
+}
+
+.conduct .conduct_01 .button {
+  display: flex;
+  position: absolute;
+}
+
+.conduct .conduct_01 .button img {
+  width: 22px;
+}
+
+.conduct .conduct_01 .button p {
+  color: #a33100;
+  font-size: 16px;
+  margin-right: 18px;
 }
