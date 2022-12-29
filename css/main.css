@@ -190,15 +190,21 @@ ul {
   padding: 1px;
 }
 
+.conduct {
+  width: 1300px;
+  margin: 0 auto;
+}
+
 .conduct ul {
   display: flex;
   margin-top: 68px;
+  flex-wrap: wrap;
+  gap: 14px;
 }
 
 .conduct ul li {
   width: 314px;
   height: 372px;
-  margin: 10px;
   border: 1px solid #e2e6e6;
 }
 
@@ -246,9 +252,17 @@ ul {
   position: relative;
 }
 
+.conduct .conduct_01 h2 {
+  margin-top: 14px;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
 .conduct .conduct_01 .button {
   display: flex;
   position: absolute;
+  bottom: 30px;
+  left: 20px;
 }
 
 .conduct .conduct_01 .button img {
