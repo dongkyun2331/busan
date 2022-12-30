@@ -165,7 +165,6 @@ ul {
   margin: 0 auto;
   box-shadow: 5px 5px 5px hsl(0deg 0% 0% / 0.75);
   position: relative;
-  padding-bottom: 71px;
 }
 
 .container .wbox_01 .p_1 {
@@ -193,11 +192,11 @@ ul {
 .conduct {
   width: 1300px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .conduct ul {
   display: flex;
-  margin-top: 68px;
   flex-wrap: wrap;
   gap: 14px;
 }
@@ -273,4 +272,69 @@ ul {
   color: #a33100;
   font-size: 16px;
   margin-right: 18px;
+}
+
+.conduct_01 .img {
+  width: 314px;
+  height: 214px;
+}
+
+.slide {
+  width: 1301px;
+  height: 258px;
+  background-image: url(../images/Layer_08.png);
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+}
+
+.slide .ellipse {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100px;
+  position: relative;
+}
+
+.slide .ellipse li {
+  width: 62px;
+  height: 62px;
+  border-radius: 62px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 62px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.slide .ellipse li:first-child {
+  position: absolute;
+  left: 10px;
+}
+
+.slide .ellipse li:last-child {
+  position: absolute;
+  right: 10px;
+}
+
+.slide .text_01 {
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  font-size: 17px;
+  color: #e5b1aa;
+}
+
+.slide .text_big {
+  position: absolute;
+  top: 48px;
+  left: 132px;
+}
+
+.slide h2 {
+  color: #ecb5a9;
+  font-size: 40px;
+  position: absolute;
+  top: 40px;
+  right: 253px;
 }
