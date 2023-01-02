@@ -338,3 +338,133 @@ ul {
   top: 40px;
   right: 253px;
 }
+
+.slide .box {
+  width: 613px;
+  height: 80px;
+  background-color: #2b3291;
+  opacity: 70%;
+  position: absolute;
+  top: 98px;
+  right: 190px;
+  box-shadow: 5px 5px 5px #000101;
+}
+
+.slide .box p {
+  /* [인싸가 되고싶은 나라]티저를 보고 퀴즈를 맞춰주세요! */
+  /* 정답자 중 추첨을 통해 경품을 드립니다! */
+  font-size: 23px;
+  color: #f5f5fa;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.slide .box p span {
+  color: #68cbf6;
+}
+
+.slide .event {
+  font-size: 20px;
+  color: #fbfbfc;
+  font-weight: 700;
+  position: absolute;
+  bottom: 22px;
+  right: 344px;
+}
+
+.slide .event .date {
+  font-size: 30px;
+}
+
+.gray {
+  height: 389px;
+  background-color: #f7f7f7;
+  margin-top: 10px;
+}
+
+.gray .gray_contents {
+  width: 1300px;
+  height: 389px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gray .gray_contents .number {
+  font-size: 40px;
+  color: #1f609b;
+  position: absolute;
+  top: 42px;
+}
+
+.gray .gray_contents .text {
+  font-size: 26px;
+  position: absolute;
+  top: 95px;
+}
+
+.gray .gray_contents .play {
+  display: flex;
+  position: absolute;
+  bottom: 118px;
+}
+
+.gray .gray_contents .play li {
+  font-size: 26px;
+  color: #6f6f6f;
+}
+
+.gray .gray_contents .play .mid {
+  width: 2px;
+  height: 14px;
+  background-color: #6f6f6f;
+  margin: 14px 5px;
+}
+
+.gray .gray_contents .photo {
+  position: absolute;
+  top: 40px;
+  left: 310px;
+  display: flex;
+}
+
+.gray .gray_contents .photo li {
+  width: 241px;
+  height: 309px;
+  background-color: #fff;
+  margin-right: 8px;
+  position: relative;
+}
+
+.gray .gray_contents .photo li p {
+  position: absolute;
+  top: 214px;
+  left: 18px;
+  font-size: 18px;
+  color: #313031;
+}
+
+.youtube {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 78px;
+}
+
+.youtube ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.youtube ul li {
+  width: 318px;
+  height: 335px;
+  position: relative;
+}
+
+.youtube ul li .text {
+  font-size: 18px;
+  color: #666;
+  position: absolute;
+  top: 202px;
+}
