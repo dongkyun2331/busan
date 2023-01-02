@@ -463,8 +463,69 @@ ul {
 }
 
 .youtube ul li .text {
-  font-size: 18px;
+  font-size: 17px;
   color: #666;
   position: absolute;
   top: 202px;
+}
+
+.youtube ul li .date {
+  font-size: 17px;
+  color: #666;
+  position: absolute;
+  bottom: 20px;
+}
+
+.youtube .add {
+  width: 210px;
+  height: 59px;
+  border: 1px solid #362f2d;
+  color: #362f2d;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 59px;
+}
+
+.weather {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 106px;
+  position: relative;
+}
+
+.weather .blue {
+  width: 76px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #356ed5;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 42px;
+}
+
+.weather .text {
+  font-size: 30px;
+  color: #356ed5;
+  font-weight: 700;
+}
+
+.weather ul {
+  position: absolute;
+  top: 0;
+  left: 169px;
+  display: flex;
+}
+
+.weather ul li {
+  width: 134px;
+  height: 122px;
+}
+
+.weather ul li .title {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
 }
