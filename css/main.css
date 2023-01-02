@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,7 +19,7 @@ ul {
 }
 
 .body {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .title {
@@ -86,7 +86,7 @@ ul {
 .container {
   width: 1600px;
   height: 836px;
-  background-image: url("../images/img.png");
+  background-image: url('../images/img.png');
   margin: 0 auto;
   background-repeat: no-repeat;
 }
@@ -519,13 +519,120 @@ ul {
   display: flex;
 }
 
-.weather ul li {
+.weather ul .content {
   width: 134px;
   height: 122px;
+  margin: 10px;
+  position: relative;
 }
 
 .weather ul li .title {
   font-size: 20px;
   color: #000;
   font-weight: 700;
+}
+
+.weather ul li .circle {
+  display: flex;
+  position: absolute;
+  top: 36px;
+  left: 0;
+}
+
+.weather ul li .circle li {
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  margin-right: 9px;
+}
+
+.weather ul li .circle .border_green {
+  border: 1px solid #3bbe69;
+}
+
+.weather ul li .circle .circle_yellow {
+  background-color: #ffc240;
+}
+
+.weather ul li .circle .border_pink {
+  border: 1px solid #ff9494;
+}
+
+.weather ul li .circle .circle_green {
+  background-color: #3bbe69;
+}
+
+.weather ul li .circle .border_yellow {
+  border: 1px solid #ffc240;
+}
+
+.weather ul .content .blue_01 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+}
+
+.weather ul .content .blue_01 .box {
+  width: 34px;
+  height: 20px;
+  background-color: #2d72e1;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 6px;
+}
+
+.weather ul .content .blue_02 {
+  position: absolute;
+  top: 91px;
+  left: 0;
+}
+
+.weather ul .content .blue_02 .box2 {
+  width: 46px;
+  height: 20px;
+  background-color: #0a5099;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 6px;
+}
+
+.weather ul .content .box3 {
+  width: 34px;
+  height: 20px;
+  background-color: #0a5099;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 6px;
+}
+
+.blue {
+  background-image: url('../images/Shape.png');
+  background-repeat: no-repeat;
+  background-position: ;
+  height: 371px;
+  background-color: #f7fbfe;
+  margin-top: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blue .img {
+}
+
+.blue .blue_content {
+  width: 1300px;
+  height: 371px;
+  margin: 0 auto;
+}
+
+.blue_content h2 {
+  font-size: 30px;
+  color: #000;
+  z-index: 1;
 }
