@@ -710,6 +710,12 @@ ul {
   display: block;
 }
 
+.menu {
+  height: 569px;
+  background-image: url(../images/gwangan.png);
+  background-repeat: no-repeat;
+}
+
 .top {
   position: fixed;
   right: 11%;
