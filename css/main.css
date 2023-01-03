@@ -710,10 +710,66 @@ ul {
   display: block;
 }
 
-.menu {
+.footer_top {
+  width: 100%;
   height: 569px;
-  background-image: url(../images/gwangan.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/gwangan.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer_top .center_box {
+  width: 1300px;
+  height: 569px;
+  margin: 0 auto;
+}
+
+.footer_top .top_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.footer_top .top_title img {
+  width: 30px;
+  height: 26px;
+}
+
+.footer_top .top_title p {
+  font-size: 17px;
+  color: #fff;
+  margin-left: 9px;
+}
+
+.footer_top .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.footer_top .icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer_top .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 227px;
+}
+
+.footer_top .menu li {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer_top .menu > li > ul {
+  display: block;
 }
 
 .top {
