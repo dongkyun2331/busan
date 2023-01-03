@@ -614,15 +614,13 @@ ul {
 .blue {
   background-image: url('../images/Shape.png');
   background-repeat: no-repeat;
-  background-position: ;
+  background-position: -404px -270px;
   height: 371px;
   background-color: #f7fbfe;
   margin-top: 90px;
   position: relative;
   overflow: hidden;
-}
-
-.blue .img {
+  margin-bottom: 50px;
 }
 
 .blue .blue_content {
@@ -631,8 +629,92 @@ ul {
   margin: 0 auto;
 }
 
-.blue_content h2 {
+.blue_content .left {
+  float: left;
+  width: 300px;
+}
+
+.blue_content .left h2 {
   font-size: 30px;
   color: #000;
-  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 23px;
+}
+
+.blue_content .left p {
+  font-size: 16px;
+  color: #000;
+}
+
+.blue_content .left button {
+  font-size: 16px;
+  color: #053e89;
+  width: 70px;
+  height: 33px;
+  border: 1px solid #053e89;
+  margin-top: 12px;
+  background-color: transparent;
+}
+
+.blue_content .right {
+  float: right;
+  width: calc(100% - 300px);
+}
+
+.blue_content ul {
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.blue_content ul li:first-child a {
+  padding-top: 0;
+}
+
+.blue_content ul li a {
+  display: block;
+  padding: 20px 11px;
+  font-size: 17px;
+  color: black;
+  border-bottom: 1px solid #dedede;
+}
+
+.blue_content ul li span {
+  float: right;
+}
+
+.icon {
+  display: flex;
+  margin: 0 auto;
+  width: 1300px;
+  margin-bottom: 50px;
+}
+
+.icon li {
+  width: 207px;
+  height: 121px;
+  border-right: 1px solid #ededed;
+  text-align: center;
+}
+
+.icon li:last-child {
+  border-right: none;
+}
+
+.icon li .img {
+  width: 207px;
+  height: 104px;
+}
+
+.icon li img {
+  margin: 0 auto;
+  display: block;
+}
+
+.top {
+  position: fixed;
+  right: 11%;
+  bottom: 2%;
+  width: 874px;
+  height: 74px;
+  background: url(../images/TOP.png);
 }
