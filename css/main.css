@@ -506,6 +506,24 @@ ul {
   opacity: 0;
 }
 
+.youtube ul li .y_03 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.youtube ul li .y_03m {
+  opacity: 1;
+}
+
+.youtube ul li .y_03i {
+  opacity: 2;
+}
+
+.youtube ul li .y_03i:hover {
+  opacity: 0;
+}
+
 .youtube ul li .text {
   font-size: 17px;
   color: #666;
