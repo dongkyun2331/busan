@@ -412,21 +412,15 @@ ul {
 }
 
 .gray .gray_contents .play {
-  display: flex;
   position: absolute;
   bottom: 118px;
-}
-
-.gray .gray_contents .play li {
   font-size: 26px;
   color: #6f6f6f;
 }
 
-.gray .gray_contents .play .mid {
-  width: 2px;
-  height: 14px;
-  background-color: #6f6f6f;
-  margin: 14px 5px;
+.gray .gray_contents .play button {
+  border: none;
+  background-color: #f7f7f7;
 }
 
 .gray .gray_contents .photo {
@@ -468,60 +462,6 @@ ul {
   width: 318px;
   height: 335px;
   position: relative;
-}
-
-.youtube ul li .y_01 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.youtube ul li .y_01m {
-  opacity: 1;
-}
-
-.youtube ul li .y_01i {
-  opacity: 2;
-}
-
-.youtube ul li .y_01i:hover {
-  opacity: 0;
-}
-
-.youtube ul li .y_02 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.youtube ul li .y_02m {
-  opacity: 1;
-}
-
-.youtube ul li .y_02i {
-  opacity: 2;
-}
-
-.youtube ul li .y_02i:hover {
-  opacity: 0;
-}
-
-.youtube ul li .y_03 {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.youtube ul li .y_03m {
-  opacity: 1;
-}
-
-.youtube ul li .y_03i {
-  opacity: 2;
-}
-
-.youtube ul li .y_03i:hover {
-  opacity: 0;
 }
 
 .youtube ul li .text {
@@ -921,7 +861,7 @@ ul {
 }
 
 .footer_content .f_box2 {
-  width: 200px;
+  width: 201px;
   height: 60px;
   border: 1px solid #fff;
   position: absolute;
