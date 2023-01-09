@@ -90,102 +90,42 @@ ul {
   margin: 10px;
 }
 
+/* container */
 .container {
-  width: 1600px;
-  height: 836px;
-  background-image: url('../images/img.png');
-  margin: 0 auto;
-  background-repeat: no-repeat;
+  position: relative;
+}
+
+.container .background {
   padding-top: 70px;
 }
 
-.container h1 {
-  /* 제17회 부산불꽃축제 */
-  font-size: 90px;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 80px;
-}
-
-.container h2 {
-  /* 2022.12.17.토. 광안리해수욕장 일원 */
-  font-size: 36px;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-.container .woro {
-  display: flex;
-}
-
-.container .line_02 {
-  margin-top: 20px;
-  margin-left: 300px;
-  width: 410px;
-  height: 1px;
-  background-color: #f3f7fb;
-}
-
-.container .woro .wbox {
-  width: 183px;
-  height: 52px;
-  background-color: #f6f7f9;
-  border-radius: 52px;
-}
-
-.container .woro .wbox h3 {
-  /* 재개알림 */
-  color: #3551b4;
-  text-align: center;
-  font-size: 30px;
-}
-
-.container .line_03 {
-  margin-top: 20px;
-  width: 410px;
-  height: 1px;
-  background-color: #f3f7fb;
-}
-
-.container h4 {
-  /* 17회 부산불꽃축제가 2022년 12월 17일 토요일 재개됩니다. */
-  padding-top: 20px;
-  color: #fdffff;
-  font-size: 36px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.container p {
-  /* 불꽃이 내리는 부산!
-    세계인과 함께하는 부산불꽃축제로 여러분을 초대합니다. */
-  font-size: 30px;
-  color: #ffffff;
-  text-align: center;
-  padding-bottom: 180px;
-}
-
 /* wbox_01 */
-.container .wbox_01 {
-  width: 1302px;
+.wbox_01 {
+  width: 1300px;
   height: 74px;
   background-color: #f6f7f9;
   margin: 0 auto;
   box-shadow: 5px 5px 5px hsl(0deg 0% 0% / 0.75);
   position: relative;
+  overflow: hidden;
 }
 
-.container .wbox_01 .p_1 {
+.wbox_01 .wbox_01ul {
+  position: relative;
+  width: 1300px;
+  height: auto;
+}
+
+.wbox_01ul .wli {
+  width: 1300px;
+  height: 74px;
+  line-height: 74px;
   color: #000;
   font-size: 26px;
-  position: absolute;
-  top: 15px;
-  left: 44px;
+  margin-left: 44px;
 }
 
-.container .wbox_01 .p_2 {
+.wbox_01 .p_2 {
   color: #000;
   font-size: 26px;
   position: absolute;
@@ -193,10 +133,10 @@ ul {
   right: 44px;
 }
 
-.container .wbox_01 img {
-  width: 10px;
+.wbox_01 img {
+  width: 16px;
   height: 16px;
-  padding: 1px;
+  margin: 0 1px;
 }
 
 /* conduct */
