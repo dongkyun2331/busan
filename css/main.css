@@ -15,7 +15,7 @@ ul {
   list-style: none;
 }
 
-.body {
+body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -91,12 +91,38 @@ ul {
 }
 
 /* container */
-.container {
+.background {
+  width: 1600px;
+  height: 786px;
   position: relative;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-.container .background {
+.background .bul {
+  position: relative;
   padding-top: 70px;
+  width: 1600px;
+  height: auto;
+}
+
+.background .bli {
+  width: 1600px;
+  height: 786px;
+}
+
+.background .bli_01 {
+  background-image: url(../images/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background .bli_02 {
+  background-image: url(../images/2030busan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* wbox_01 */
@@ -108,6 +134,10 @@ ul {
   box-shadow: 5px 5px 5px hsl(0deg 0% 0% / 0.75);
   position: relative;
   overflow: hidden;
+  position: absolute;
+  top: 750px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .wbox_01 .wbox_01ul {
@@ -143,7 +173,7 @@ ul {
 .conduct {
   width: 1300px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .conduct ul {
