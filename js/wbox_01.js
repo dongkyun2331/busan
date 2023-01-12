@@ -1,14 +1,14 @@
 //background
 $(document).ready(function () {
-  var height = $('.background').height()
+  var width = $('.background').width()
   var num = $('.bul .bli').length
-  var max = height * num
+  var max = width * num
   var move = 0
   function background() {
-    move += height
-    $('.bul').animate({ top: -move }, 600, function () {
+    move += width
+    $('.bul').animate({ left: -move }, 600, function () {
       if (move >= max) {
-        $(this).css('top', 0)
+        $(this).css('left', 0)
         move = 0
       }
     })

@@ -15,7 +15,7 @@ ul {
   list-style: none;
 }
 
-.body {
+body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -92,12 +92,102 @@ ul {
 
 .container {
   width: 100%;
-  height: 275px;
-  background-image: url('../images/busantrip.jpg');
+  height: 422px;
+  background-image: url('../images/img_02.png');
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 70px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.container .c_title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h1 {
+  font-size: 44px;
+}
+
+.container h2 {
+  font-size: 18px;
+}
+
+.container .c_menu {
+  display: flex;
+  width: 1200px;
+  height: 60px;
+  background-color: #123e75;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container .c_menu .cli {
+  width: 240px;
+  height: 60px;
+  padding-top: 18px;
+}
+
+.container .c_menu .cli p {
+  border-right: 1px solid #416a9b;
+}
+
+.container .c_menu .cli:first-child p {
+  border: none;
+}
+
+.container .c_menu .cli:last-child p {
+  border: none;
+}
+
+.container .c_menu .cli_01 {
+  background-color: #fff;
+  color: #1a62ab;
+}
+
+.first {
+  width: 1462px;
+  height: 678px;
+  background-image: url(../images/img_03.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+.first .f_wbox {
+  width: 1361px;
+  height: 137px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.first .f_bbox {
+  width: 180px;
+  height: 58px;
+  background-color: #115cae;
+  opacity: 70%;
+  position: absolute;
+  bottom: 108px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.first .f_bbox a {
+  margin: 0 20px;
 }
 
 .footer_top {
