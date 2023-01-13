@@ -117,27 +117,6 @@ body {
   height: 786px;
 }
 
-.background .bli_01 {
-  /* background-image: url(../images/img.png); */
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0; */
-}
-
-.background .bli_02 img {
-  /* width: 1600px;
-  height: 786px; */
-  /* background-image: url(../images/2030busan.jpg); */
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  left: 1600px;
-  top: 0; */
-}
-
 /* wbox_01 */
 .wbox_01 {
   width: 1300px;
