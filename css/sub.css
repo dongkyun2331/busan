@@ -352,6 +352,13 @@ body {
   left: 200px;
 }
 
+.Group6_map {
+  position: absolute;
+  top: 124px;
+  left: 200px;
+  border: 3px solid #000101;
+}
+
 .Group6_tp {
   font-size: 16px;
   color: #e580cc;
@@ -364,12 +371,14 @@ body {
 .Group6_ul {
   position: absolute;
   top: 118px;
-  right: 340px;
+  right: 260px;
 }
 
 .Group6_li {
   display: flex;
   margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
 }
 
 .Group6_tl {
