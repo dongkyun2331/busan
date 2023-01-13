@@ -340,35 +340,31 @@ body {
   background-image: url(../images/sub_group6.png);
   background-repeat: no-repeat;
   margin: 0 auto;
-}
-
-.Group6_l {
-  float: left;
+  position: relative;
 }
 
 .Group6_t {
   font-size: 32px;
   color: #222;
   font-weight: 700;
-  margin-top: 40px;
-  margin-left: 200px;
-}
-
-.Group6_r {
-  float: right;
+  position: absolute;
+  top: 40px;
+  left: 200px;
 }
 
 .Group6_tp {
   font-size: 16px;
   color: #e580cc;
   font-weight: 700;
-  margin-top: 13px;
-  margin-right: 43px;
+  position: absolute;
+  top: 13px;
+  right: 100px;
 }
 
 .Group6_ul {
-  margin-top: 77px;
-  margin-right: 260px;
+  position: absolute;
+  top: 118px;
+  right: 340px;
 }
 
 .Group6_li {
