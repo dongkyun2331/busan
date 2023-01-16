@@ -145,6 +145,10 @@ body {
   border: none;
 }
 
+.Group2 .c_menu .cli:nth-child(2) p {
+  border: none;
+}
+
 .Group2 .c_menu .cli:last-child p {
   border: none;
 }
@@ -156,235 +160,56 @@ body {
 
 /* Group3 */
 .Group3 {
-  width: 1462px;
-  height: 678px;
-  background-image: url(../images/img_03.png);
-  background-repeat: no-repeat;
+  width: 1600px;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 117px;
 }
 
-.Group3 .f_wbox {
-  width: 1361px;
-  height: 137px;
+.Group3 .busan2030 {
+  width: 420px;
+  height: 540px;
+  background-image: url(../images/sub_2_2030.png);
+  background-repeat: no-repeat;
+  background-position: -290px 5px;
+  position: absolute;
+  top: 48px;
+  left: 200px;
+}
+
+.Group3 .Shape9 {
+  width: 157px;
+  height: 1px;
   background-color: #fff;
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 133px;
+  left: 483px;
 }
 
-.f_wbox p {
-  font-size: 20px;
-  color: #555;
-  font-weight: 700;
-  margin-top: 80px;
-  margin-left: 80px;
-}
-
-.f_wbox p span {
-  color: #0593d2;
-}
-
-.Group3 .f_bbox {
-  width: 180px;
-  height: 58px;
-  background-color: #115cae;
-  opacity: 70%;
-  position: absolute;
-  bottom: 108px;
-  left: 50%;
-  transform: translateX(-50%);
+.Group3 h1 {
+  /* 해외 마케팅 */
+  font-size: 33px;
   color: #fff;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 58px;
-}
-
-.Group3 .f_bbox a {
-  margin: 0 20px;
+  position: absolute;
+  top: 111px;
+  left: 669px;
 }
 
 /* Group4 */
 .Group4 {
-  width: 1200px;
-  height: 530px;
-  margin: 0 auto;
-}
-
-.Group4 .left {
-  float: left;
-  width: 600px;
-  height: 530px;
-}
-
-.Group4 .left img {
-  width: 500px;
-  height: 340px;
-}
-
-.Group4 .right {
-  float: right;
-  width: 600px;
-  height: 530px;
-  position: relative;
-}
-
-.Group4 .right h1 {
-  font-size: 31px;
-  color: #222;
-  margin-bottom: 57px;
-}
-
-.Group4 .right p {
-  font-size: 17px;
-  color: #6b6d6b;
-  letter-spacing: -1px;
-  line-height: 1.7;
-  margin-bottom: 27px;
-}
-
-.c1a9cd6 {
-  color: #1a9cd6;
-}
-
-.c0a60bc {
-  color: #0a60bc;
-}
-
-.Rectangle3 {
-  width: 219px;
-  height: 43px;
-  background: rgb(9, 98, 164);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 98, 164, 1) 0%,
-    rgba(204, 17, 141, 1) 100%,
-    rgba(69, 132, 227, 1) 100%
-  );
-  border: 1px solid #015c61;
-  color: #e7eeff;
-  position: relative;
-}
-
-.Rectangle3 .Rectangle3_text {
-  position: absolute;
-  top: 7px;
-  left: 22px;
-  font-size: 17px;
-}
-
-.Rectangle3 .shape5 {
-  position: absolute;
-  top: 14px;
-  right: 22px;
-}
-
-.BUSANCITYTOUR {
-  font-size: 26px;
-  color: #747474;
-  position: absolute;
-  right: 0;
-  bottom: 66px;
-}
-
-/* Group5 */
-.Group5 {
-  width: 100%;
-  height: 176px;
-  background-color: #f6f6f7;
-}
-
-.Group5_c {
-  width: 1200px;
-  height: 176px;
-  margin: 0 auto;
-}
-
-.Group5_tb {
-  float: left;
-}
-
-.Group5_t {
-  font-size: 32px;
-  color: #222;
-  font-weight: 700;
-  padding-top: 50px;
-}
-
-.Group5_t2 {
-  font-size: 18px;
-  color: #6a6c6a;
-}
-
-.Group5_ul {
-  display: flex;
-  float: right;
-}
-
-.Group5_li {
-  padding: 0 50px;
-  margin: 58px 0;
-  border-right: 1px solid #e8e8e9;
-}
-
-.Group5_li:last-child {
-  border: none;
-}
-
-/* Group6 */
-.Group6 {
   width: 1600px;
-  height: 640px;
-  background-image: url(../images/sub_group6.png);
-  background-repeat: no-repeat;
+  height: 743px;
   margin: 0 auto;
   position: relative;
 }
 
-.Group6_t {
-  font-size: 32px;
+.Group4 h2 {
+  /* 부산 관광 홍보 및 활성화 활동 */
+  font-size: 30px;
   color: #222;
-  font-weight: 700;
   position: absolute;
-  top: 40px;
-  left: 200px;
+  top: 386px;
+  left: 258px;
 }
-
-.Group6_map {
-  position: absolute;
-  top: 124px;
-  left: 200px;
-}
-
-.Group6_tp {
-  font-size: 16px;
-  color: #e580cc;
-  font-weight: 700;
-  position: absolute;
-  top: 13px;
-  right: 100px;
-}
-
-.Group6_ul {
-  position: absolute;
-  top: 118px;
-  right: 260px;
-}
-
-.Group6_li {
-  display: flex;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #555;
-}
-
-.Group6_tl {
-  width: 103px;
-  margin-left: 10px;
-}
-
 /* footer */
 .footer {
   width: 100%;

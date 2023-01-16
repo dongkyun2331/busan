@@ -210,6 +210,10 @@ body {
   color: #fff;
 }
 
+.conduct .trip .circle.circle_2 {
+  background-color: #215fd1;
+}
+
 .conduct .trip p {
   /* 이달의 부산여행지 */
   font-size: 26px;
