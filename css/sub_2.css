@@ -202,6 +202,15 @@ body {
   position: relative;
 }
 
+.Group4_line {
+  background-color: #ddd;
+  width: 1px;
+  height: 220px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+
 .Group4 h2 {
   /* 부산 관광 홍보 및 활성화 활동 */
   font-size: 30px;
@@ -210,6 +219,71 @@ body {
   top: 386px;
   left: 258px;
 }
+
+.Group4 .t_ul {
+  position: absolute;
+  left: 258px;
+  top: 502px;
+}
+
+.Group4 .t_ul .t_li {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.c00d8ff {
+  color: #00d8ff;
+}
+
+.c00c6ff {
+  color: #00c6ff;
+}
+
+.Group4 h3 {
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  top: 93px;
+  left: 662px;
+}
+
+.Group4 p {
+  font-size: 18px;
+  color: #000;
+  position: absolute;
+  top: 188px;
+  left: 662px;
+}
+
+.Group4 .global_marketing {
+  font-size: 25px;
+  color: #000;
+  position: absolute;
+  top: 390px;
+  left: 1152px;
+}
+
+.Group4 .i_ul {
+  display: flex;
+  position: absolute;
+  top: 517px;
+  left: 662px;
+}
+
+.Group4 .i_ul .i_li img {
+  width: 168px;
+  height: 136px;
+  margin-right: 16px;
+}
+
+.Group4 .rectangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
 /* footer */
 .footer {
   width: 100%;
