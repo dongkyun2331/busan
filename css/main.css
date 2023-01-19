@@ -95,26 +95,13 @@ body {
   width: 1600px;
   height: 786px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0 auto;
 }
 
-.background .bul {
-  position: relative;
-  padding-top: 70px;
-  width: auto;
+.background .bul .bli {
   height: 786px;
-  display: flex;
-}
-
-.background .bli {
-  width: 1600px;
-  height: 786px;
-}
-
-.bli img {
-  width: 1600px;
-  height: 786px;
+  /* display: flex; */
 }
 
 /* wbox_01 */
