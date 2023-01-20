@@ -94,14 +94,36 @@ body {
 .background {
   width: 1600px;
   height: 786px;
-  position: relative;
-  /* overflow: hidden; */
   margin: 0 auto;
 }
 
-.background .bul .bli {
+.bul .bli {
+  width: 100%;
   height: 786px;
-  /* display: flex; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bul .bli_1 {
+  background-image: url(../images/img.png);
+}
+.bul .bli_2 {
+  background-image: url(../images/2030busan.jpg);
+}
+.bul .bli_3 {
+  background-image: url(../images/busantrip.jpg);
+}
+
+.wbox_01ul .slick-dots li {
+  display: block;
+  z-index: 1;
+}
+
+button#slick-slide-control00::before {
+  content: '부산관광공사';
+  width: 200px;
+  color: #000;
+  font-size: 26px;
 }
 
 /* wbox_01 */
@@ -120,14 +142,14 @@ body {
 }
 
 .wbox_01 .wbox_01ul {
-  position: relative;
-  width: 1300px;
-  height: auto;
+  /* position: relative; */
+  /* width: 1300px; */
+  /* height: auto; */
 }
 
 .wbox_01ul .wli {
-  width: 1300px;
-  height: 74px;
+  /* width: 1300px; */
+  /* height: 74px; */
   line-height: 74px;
   color: #000;
   font-size: 26px;
