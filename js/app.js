@@ -54,8 +54,24 @@ $(document).ready(function () {
     autoplay: true,
     vertical: true,
     autoplaySpeed: 3000,
-    // nextArrow: $('.right'),
-    // prevArrow: $('.left'),
+  })
+
+  $('.bul').slick({
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    nextArrow: $('.right'),
+    prevArrow: $('.left'),
+  })
+
+  $('.right').click(function () {
+    $('.wbox_01ul').slick('slickNext')
+    $('.bul').slick('slickNext')
+  })
+
+  $('.left').click(function () {
+    $('.wbox_01ul').slick('slickPrev')
+    $('.bul').slick('slickPrev')
   })
 
   $('.start').click(function () {
@@ -66,13 +82,5 @@ $(document).ready(function () {
   $('.stop').click(function () {
     $('.wbox_01ul').slick('slickPause')
     $('.bul').slick('slickPause')
-  })
-
-  $('.bul').slick({
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    nextArrow: $('.right'),
-    prevArrow: $('.left'),
   })
 })

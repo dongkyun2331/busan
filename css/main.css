@@ -114,17 +114,27 @@ body {
   background-image: url(../images/busantrip.jpg);
 }
 
-.wbox_01ul .slick-dots li {
-  display: block;
-  z-index: 1;
-}
-
-button#slick-slide-control00::before {
-  content: '부산관광공사';
-  width: 200px;
+/* button#slick-slide-control00::before {
+  content: '제17회 부산불꽃축제';
+  width: 300px;
   color: #000;
   font-size: 26px;
+  z-index: 1;
 }
+button#slick-slide-control01::before {
+  content: '2030 부산월드엑스포';
+  width: 300px;
+  color: #000;
+  font-size: 26px;
+  z-index: 1;
+}
+button#slick-slide-control02::before {
+  content: '부산명소 해동용궁사';
+  width: 300px;
+  color: #000;
+  font-size: 26px;
+  z-index: 1;
+} */
 
 /* wbox_01 */
 .wbox_01 {
@@ -142,9 +152,15 @@ button#slick-slide-control00::before {
 }
 
 .wbox_01 .wbox_01ul {
-  /* position: relative; */
+  position: relative;
   /* width: 1300px; */
   /* height: auto; */
+}
+
+.wbox_01ul .slick-dots li {
+  z-index: 1;
+  position: absolute;
+  left: -500px;
 }
 
 .wbox_01ul .wli {
