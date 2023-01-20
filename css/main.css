@@ -183,6 +183,10 @@ body {
   width: 312px;
 }
 
+.conduct ul li .img:hover {
+  filter: brightness(0.7);
+}
+
 .conduct .trip {
   position: relative;
 }
