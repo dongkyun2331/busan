@@ -4,6 +4,7 @@ $(document).ready(function () {
     autoplay: true,
     vertical: true,
     autoplaySpeed: 3000,
+    draggable: false,
   })
 
   $('.bul').slick({
@@ -12,6 +13,7 @@ $(document).ready(function () {
     autoplaySpeed: 3000,
     nextArrow: $('.right'),
     prevArrow: $('.left'),
+    draggable: false,
   })
 
   $('.right').click(function () {
