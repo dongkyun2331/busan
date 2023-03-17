@@ -19,44 +19,38 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.title_all {
+.header {
+  display: flex;
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0;
+  left: 0;
+  display: flex;
   width: 100%;
   height: 70px;
+  z-index: 2;
   background-color: #fff;
-  z-index: 1;
-}
-/* position: fixed;를 사용하여 상단바가 따라 내려오게 하였습니다. */
-.title {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  width: 1600px;
-  height: 70px;
-  z-index: 1;
 }
 
-.head {
+.header_nav {
+  display: flex;
+}
+
+.logo {
   background-color: #0050a0;
   width: 182px;
   height: 160px;
   margin: 0 0 0 199px;
+  text-align: center;
 }
 
-.head img {
+.logo > img {
   width: 74px;
-  margin: 30px 0 0 55px;
+  margin-top: 30px;
 }
-/* margin으로 로고를 위치를 지정했습니다. */
-.head h1 {
+
+.logo > h1 {
   color: #f3f7fb;
   font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .menu ul {
@@ -70,6 +64,7 @@ body {
 }
 
 .lan {
+  float: right;
   display: flex;
 }
 
@@ -78,34 +73,42 @@ body {
   color: #666666;
 }
 
-.lan .line {
-  border-right: 1px solid #666666;
-  margin-bottom: 115px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 .lan img {
   width: 33px;
   height: 33px;
   margin: 10px;
 }
 
+.bars {
+  display: none;
+  font-size: 36px;
+}
+
 /* container */
+
 .background {
-  width: 1600px;
-  height: 786px;
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  max-height: 786px;
   margin: 0 auto;
+}
+
+.bul {
+  display: flex;
+  justify-content: center;
 }
 
 .bul .bli {
   width: 100%;
   height: 786px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center center;
 }
 
 .bul .bli_1 {
-  background-image: url(../images/img.png);
+  background-image: url(../images/img.jpg);
 }
 .bul .bli_2 {
   background-image: url(../images/2030busan.jpg);
@@ -116,7 +119,7 @@ body {
 
 /* wbox_01 */
 .wbox_01 {
-  width: 1300px;
+  max-width: 1300px;
   height: 74px;
   background-color: #f6f7f9;
   margin: 0 auto;
@@ -168,8 +171,8 @@ body {
 }
 
 .conduct ul {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
 }
 
@@ -259,24 +262,39 @@ body {
   height: 214px;
 }
 
-.slide {
+.slide_slick_container {
+  padding-top: 30px;
+  margin: 0 auto;
   width: 1301px;
   height: 258px;
-  background-image: url(../images/Layer_08.png);
-  margin: 0 auto;
-  margin-top: 30px;
   position: relative;
 }
 
-.slide .ellipse {
+.right2 {
+  cursor: pointer;
+}
+
+.left2 {
+  cursor: pointer;
+}
+
+.slide {
+  width: 1301px;
+  height: 258px;
+  background-image: url(../images/Layer_08.jpg);
+  position: relative;
+}
+
+.ellipse {
   display: flex;
   justify-content: space-between;
   position: absolute;
   top: 100px;
   position: relative;
+  z-index: 1;
 }
 
-.slide .ellipse li {
+.ellipse li {
   width: 62px;
   height: 62px;
   border-radius: 62px;
@@ -287,12 +305,12 @@ body {
   font-weight: 700;
 }
 
-.slide .ellipse li:first-child {
+.ellipse li:first-child {
   position: absolute;
   left: 10px;
 }
 
-.slide .ellipse li:last-child {
+.ellipse li:last-child {
   position: absolute;
   right: 10px;
 }
@@ -370,52 +388,105 @@ body {
   position: relative;
 }
 
-.gray .gray_contents .number {
+.number {
   font-size: 40px;
   color: #1f609b;
   position: absolute;
   top: 42px;
 }
 
-.gray .gray_contents .text {
+.number::after {
+  content: '/2';
+  color: #1f609b;
+}
+
+.text {
   font-size: 26px;
   position: absolute;
   top: 95px;
 }
 
-.gray .gray_contents .play {
+.play {
   position: absolute;
   bottom: 118px;
-  font-size: 26px;
-  color: #6f6f6f;
 }
 
-.gray .gray_contents .play button {
+.play button {
   border: none;
   background-color: #f7f7f7;
+  font-size: 26px;
+  color: #6f6f6f;
+  cursor: pointer;
 }
 
-.gray .gray_contents .photo {
-  position: absolute;
-  top: 40px;
-  left: 310px;
+.photo_slick {
+  width: 1000px;
+  height: 310px;
+  float: right;
+  margin-top: 40px;
+}
+
+.photo_slide {
+  width: 1000px;
+  height: 310px;
+  margin: 0 auto;
+}
+
+.photo {
   display: flex;
 }
 
-.gray .gray_contents .photo li {
+.photo li {
   width: 241px;
   height: 309px;
   background-color: #fff;
   margin-right: 8px;
   position: relative;
+  overflow: hidden;
 }
 
-.gray .gray_contents .photo li p {
+.photo_image {
+  filter: brightness(50%);
+}
+
+.photo_image.move {
+  filter: brightness(100%);
+}
+
+.wave {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+}
+
+.wave.move {
+  bottom: 0;
+}
+
+.plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #313031;
+  opacity: 0;
+}
+
+.plus.move {
+  opacity: 1;
+}
+
+.photo_p {
   position: absolute;
   top: 214px;
   left: 18px;
   font-size: 18px;
   color: #313031;
+}
+
+.photo_p.move {
+  top: 184px;
 }
 
 .youtube {
@@ -459,6 +530,14 @@ body {
   margin: 0 auto;
   text-align: center;
   line-height: 59px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.youtube .add:hover {
+  transform: translateY(-10px);
+  background-color: #000;
+  color: #fff;
 }
 
 .weather {
@@ -468,7 +547,7 @@ body {
   position: relative;
 }
 
-.weather .blue {
+.weather .blue_busan {
   width: 76px;
   height: 42px;
   border-radius: 10px;
@@ -480,7 +559,7 @@ body {
   line-height: 42px;
 }
 
-.weather .text {
+.weather .blue_text {
   font-size: 30px;
   color: #356ed5;
   font-weight: 700;
@@ -688,7 +767,7 @@ body {
   width: 100%;
   height: 569px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/gwangan.png);
+    url(../images/gwangan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -911,4 +990,33 @@ body {
   height: 74px;
   background: url(../images/TOP.png);
   background-repeat: no-repeat;
+}
+
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
 }

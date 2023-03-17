@@ -158,7 +158,8 @@ body {
 .Group3 {
   width: 1462px;
   height: 678px;
-  background-image: url(../images/img_03.png);
+  background-image: url(../images/img_03.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
   position: relative;
