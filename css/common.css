@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.logo {
+  background-color: #0050a0;
+  width: 182px;
+  height: 160px;
+  margin: 0 0 0 199px;
+  text-align: center;
+  z-index: 1;
+}
+
+.logo > img {
+  width: 74px;
+  margin-top: 30px;
+}
+
+.logo > h1 {
+  color: #f3f7fb;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  padding: 24px 30px;
+}
+
+.menu li a {
+  margin: 35px;
+  color: #666666;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 0;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #2d72e1;
+}
+
+.menu-item:hover::after {
+  width: 10px;
+}
+
+.menu1 {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 210px;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
+  color: #666;
+  display: none;
+}
+
+.menu1 > div {
+  width: 800px;
+  margin-left: 420px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.menu1 > div > div {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.menu1 > div > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.menu1 > div > ul > li {
+  margin-bottom: 10px;
+}
+
+.menu1 > div > ul > li > a:hover {
+  color: #2d72e1;
+}
+
+.lan {
+  float: right;
+  display: flex;
+}
+
+.lan p {
+  margin-top: 24px;
+  color: #666666;
+}
+
+.lan img {
+  width: 33px;
+  height: 33px;
+  margin: 10px;
+}
