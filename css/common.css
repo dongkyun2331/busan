@@ -134,3 +134,13 @@ body {
   height: 33px;
   margin: 10px;
 }
+
+@media (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+
+  .lan {
+    display: none;
+  }
+}
